@@ -1,0 +1,9 @@
+*/bin/*
+*/obj/*
+Gemfile.lock
+.bundle
+modules/
+release/*
+release.zip
+app.zip
+boltwebinar.zip

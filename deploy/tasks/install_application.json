@@ -1,0 +1,14 @@
+{
+  "description": "Cross-platform task that Installs .NET Core 2.1 with ASP.NET support",
+  "input_method": "powershell",
+  "parameters": {
+    "package_location": {
+      "description": "Fully qualified path to the zip package containing the application.",
+      "type": "String"
+    },
+    "overwrite": {
+      "description": "Whether to overwrite the destination files. Defaults to true.",
+      "type": "Optional[Boolean]"
+    }
+  }
+}

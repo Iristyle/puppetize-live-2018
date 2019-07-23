@@ -1,0 +1,6 @@
+{
+  "description": "Cross-platform task that Installs .NET Core 2.1 with ASP.NET support",
+  "input_method": "powershell",
+  "parameters": {
+  }
+}

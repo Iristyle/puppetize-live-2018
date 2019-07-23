@@ -1,0 +1,14 @@
+{
+  "description": "Cross-platform task that Installs .NET Core 2.1 with ASP.NET support",
+  "input_method": "powershell",
+  "parameters": {
+    "build_omi": {
+      "description": "Builds OMI server package from source. Default is to use prebuilt packages.",
+      "type": "Optional[Boolean]"
+    },
+    "enable_ntlm_authentication": {
+      "description": "Configures OMI listener for NTLM / SPNEGO auth. Default is to enable",
+      "type": "Optional[Boolean]"
+    }
+  }
+}

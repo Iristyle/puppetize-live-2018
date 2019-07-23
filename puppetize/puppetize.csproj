@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <Content Update="wwwroot\**\*.js" CopyToPublishDirectory="Never" />
+    <Content Update="wwwroot\**\*.css" CopyToPublishDirectory="Never" />
+    <Content Update="wwwroot\**\*.map" CopyToPublishDirectory="Never" />
+    <Content Update="wwwroot\**\*.min.js" CopyToPublishDirectory="Always" />
+    <Content Update="wwwroot\**\*.min.css" CopyToPublishDirectory="Always" />
+  </ItemGroup>
+
+</Project>
